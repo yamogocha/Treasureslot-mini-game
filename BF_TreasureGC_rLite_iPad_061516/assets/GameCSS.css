@@ -1,0 +1,513 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:768px;
+	height:1024px;
+	left: 0px;
+	top: 0px;
+}
+
+.gamebg{
+	background-image:url("gameBG_iPad.jpg");
+	position: absolute;
+	width:768px;
+	height:1024px;
+	left:0px;
+	top:0px;
+}
+
+.bomb{
+	-webkit-animation:bomb 1s linear infinite;
+}
+
+.bomb2{
+	-webkit-animation:bomb 1s linear infinite .2s;
+}
+
+.bombL{
+	-webkit-animation:bombL 1s linear infinite;
+}
+
+.bombL2{
+	-webkit-animation:bombL 1s linear infinite .2s;
+}
+
+#rightB1{
+	background-image:url("rightB1_iPad.png");
+	position: absolute;
+	width:76px;
+	height:66px;
+	left:478px;
+	top:295px;
+}
+
+#rightB2{
+	background-image:url("rightB2_iPad.png");
+	position: absolute;
+	width:68px;
+	height:60px;
+	left:538px;
+	top:311px;
+}
+
+#rightB3{
+	background-image:url("rightB3_iPad.png");
+	position: absolute;
+	width:71px;
+	height:61px;
+	left:576px;
+	top:339px;
+}
+
+#leftB1{
+	background-image:url("leftB1_iPad.png");
+	position: absolute;
+	width:76px;
+	height:66px;
+	left:216px;
+	top:294px;
+}
+
+#leftB2{
+	background-image:url("leftB2_iPad.png");
+	position: absolute;
+	width:68px;
+	height:60px;
+	left:160px;
+	top:305px;
+}
+
+#leftB3{
+	background-image:url("leftB3_iPad.png");
+	position: absolute;
+	width:71px;
+	height:61px;
+	left:115px;
+	top:333px;
+}
+
+.rightF1{
+	background-image:url("fireR_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:490px;
+	top:137px;
+	opacity:0;
+	-webkit-transform-origin:20% 90%;
+	-webkit-animation:fire 1s linear infinite;
+}
+
+.rightF2{
+	background-image:url("fireR_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:547px;
+	top:156px;	
+	opacity:0;
+	-webkit-transform-origin:20% 90%;
+	-webkit-animation:fire 1s linear infinite .2s;
+}
+
+.rightF3{
+	background-image:url("fireR_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:589px;
+	top:188px;	
+	opacity:0;
+	-webkit-transform-origin:20% 90%;
+	-webkit-animation:fire 1s linear infinite;
+}
+
+.leftF1{
+	background-image:url("fire_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:100px;
+	top:136px;
+	opacity:0;
+	-webkit-transform-origin:80% 90%;
+	-webkit-animation:fire 1s linear infinite;
+}
+
+.leftF2{
+	background-image:url("fire_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:42px;
+	top:149px;
+	opacity:0;
+	-webkit-transform-origin:80% 90%;
+	-webkit-animation:fire 1s linear infinite .2s;
+}
+
+.leftF3{
+	background-image:url("fire_iPad.png");
+	position: absolute;
+	width:179px;
+	height:209px;
+	left:-2px;
+	top:178px;
+	opacity:0;
+	-webkit-transform-origin:80% 90%;
+	-webkit-animation:fire 1s linear infinite;
+}
+
+.board{
+	background-image:url("board_iPad.png");
+	position: absolute;
+	width:650px;
+	height:414px;
+	left:60px;
+	top:347px;
+}
+
+.reels{
+	position:absolute;
+	overflow:hidden;
+	width:768px;
+    height: 318px;
+    left: 0px;
+    top:410px;
+}
+
+#reel1{
+	position: absolute;
+	width:102px;
+    left:122px;
+}
+
+#reel2{
+	position: absolute;
+	width:102px;
+	left:230px;
+}
+
+#reel3{
+	position: absolute;
+	width:102px;
+	left: 339px;
+}
+
+#reel4{
+	position: absolute;
+	width:102px;
+    left:446px;
+}
+
+#reel5{
+	position: absolute;
+	width:102px;
+	left:555px;
+}
+
+.reel-top{
+	top: -1590px;
+}
+
+.reel-spin{
+	top: -1590px;
+	-webkit-animation: reel-spin 2s cubic-bezier(0.46, 0.1, 0.63, 1.35);
+}
+
+.image1{
+	background-image: url("anker_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image2{
+	background-image: url("compass_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image3{
+	background-image: url("gun_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image4{
+	background-image: url("magnifyGlass_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image5{
+	background-image: url("map_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image6{
+	background-image: url("piratesprite_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.piratemove{
+	-webkit-animation: piratemove 1.2s steps(6) alternate 6;
+}
+
+.image7{
+	background-image: url("ship_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image8{
+	background-image: url("skull_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.image9{
+	background-image: url("wildsprite_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.wildmove{
+	-webkit-animation: wildmove 1s steps(5) alternate 6;
+}
+
+.image10{
+	background-image: url("youngPirate_iPad.png");
+	position: absolute;
+	width:106px;
+	height:106px;
+}
+
+.line1{
+	background-image:url("line1_iPad.png");
+	position: absolute;
+	width:555px;
+	height:320px;
+    left:120px;
+    top:408px;
+    opacity:0;
+    -webkit-animation: effectblink .8s infinite alternate;
+}
+
+.line2{
+	background-image:url("line2_iPad.png");
+	position: absolute;
+	width:552px;
+	height:215px;
+    left:121px;
+    top:408px;
+    opacity:0;
+    -webkit-animation: effectblink .8s infinite alternate;
+}
+
+#effect1{
+	background-image:url("effect1_iPad.png");
+	position: absolute;
+	width:600px;
+	height:358px;
+    left:85px;
+    top:389px;
+    display:none;
+    -webkit-animation: effectblink .5s infinite alternate;
+}
+
+#effect2{
+	background-image:url("effect2_iPad.png");
+	position: absolute;
+	width:584px;
+	height:343px;
+	left:92px;
+    top:398px;
+    display:none;
+    -webkit-animation: effectblink .5s infinite alternate.6s;
+}
+
+#totalNum{
+	font-family: 'Arimo', sans-serif;
+	font-size:35px;
+	position:absolute;
+	color:white;
+	text-align:center;
+	width:200px;
+    left:228px;
+    top:896px;
+}
+
+#wonNum{
+	font-family: 'Sansita One', cursive;
+	font-size:85px;
+	position:absolute;
+	color: transparent;
+ 	background:-webkit-linear-gradient(top, rgba(244,252,255,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%);
+    -webkit-background-clip: text;
+	text-align:center;
+    width:650px;
+    left:60px;
+    top:508px;
+    display:none;
+}
+
+#shadow{
+	font-family: 'Sansita One', cursive;
+	font-size:88px;
+	position:absolute;
+    color:#001e24;
+    text-align:center;
+    width:650px;
+    left:64px;
+    top:507px;
+    text-shadow:4px 7px 1px #001e24;
+    display:none;
+}
+
+.bigwin{
+	background-image: url("bigwinsprite_iPad.png");
+	position: absolute;
+	width:760px;
+	height:290px;
+    left:5px;
+    top:50px;
+    -webkit-animation: bigwinmove 1.5s steps(5) alternate 6;
+}
+
+.spin{
+	position: absolute;
+	width:148px;
+	height:138px;
+    left:585px;
+    top:874px;
+}
+
+#wheel{
+	background-image:url("spinWheel_iPad.png");
+	position: absolute;
+	width:148px;
+	height:138px;
+    left:0px;
+    top:0px;
+}
+
+.wheel{
+	 -webkit-animation:wheel 2s linear infinite alternate;
+}
+
+.wheel2{
+	 -webkit-animation:wheel2 .4s linear 3;
+}
+
+#text{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+	width:138px;
+	height:48px;
+    left:7px;
+    top:45px;
+}
+
+.text{
+	-webkit-animation:blinkspin 1s infinite alternate;
+}
+
+.blinkspin{
+	background-image:url("blinkspin_iPad.png");
+	position: absolute;
+	width:198px;
+	height:198px;
+    left: 560px;
+    top: 825px;
+    opacity:0;
+    -webkit-animation: blinkspin 1s linear 20;
+}
+
+.enlarge{
+	-webkit-animation:enlarge .15s linear alternate 3;
+}
+
+.sparkles{
+	background-image:url("spinSparkles_iPad.png");
+	position: absolute;
+	width:180px;
+	height:175px;
+    left: 567px;
+    top: 855px;
+    opacity:0;
+    -webkit-animation: sparkles .8s linear;
+}
+
+@-webkit-keyframes reel-spin {
+	0% {-webkit-transform: translate(0px, 0px);}
+	50%, 100% {-webkit-transform: translate(0px, 1484px);}	
+}
+
+@-webkit-keyframes wheel{
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(15deg);}	
+}
+
+@-webkit-keyframes wheel2 {
+	100% {-webkit-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes blinkspin {
+	from {-webkit-filter:brightness(80%);}
+	to {-webkit-filter:brightness(180%);}
+}
+
+@-webkit-keyframes enlarge {
+	0% {-webkit-transform:scale(.8);}
+	100% {-webkit-transform:scale(1.2);}	
+}
+
+@-webkit-keyframes sparkles {
+	0% {-webkit-transform:scale(0);opacity:0;}
+	20% {-webkit-transform:scale(.8);opacity:1;}	
+	80% {-webkit-transform:scale(1);opacity:0;}	
+}
+
+@-webkit-keyframes wildmove {
+	100% {background-position:-530px;}
+}
+
+@-webkit-keyframes piratemove {
+	100% {background-position:-636px;}
+}
+
+@-webkit-keyframes bigwinmove {
+	100% {background-position:-3800px;}
+}
+
+@-webkit-keyframes effectblink {
+	0% {opacity:0;}
+	100% {opacity:1;}	
+}
+
+@-webkit-keyframes fire {
+	0% {-webkit-transform:scale(0); opacity:1;}
+	20% {-webkit-transform:scale(1); opacity:1;}	
+	50{-webkit-transform:scale(1.3); opacity:0;}	
+}
+
+@-webkit-keyframes bomb {
+	0% {-webkit-transform:translate(-10px, 15px);}	
+	30% {-webkit-transform:translate(0);}	
+}
+
+@-webkit-keyframes bombL {
+	0% {-webkit-transform:translate(10px, 15px);}	
+	30% {-webkit-transform:translate(0);}	
+}

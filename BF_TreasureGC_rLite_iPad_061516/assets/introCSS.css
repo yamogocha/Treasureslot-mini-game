@@ -1,0 +1,61 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:768px;
+	height:1024px;
+	left: 0px;
+	top: 0px;
+}
+
+.introbg{
+	background-image:url("introBG_iPad.jpg");
+	position: absolute;
+	width:768px;
+	height:1024px;
+	left:0px;
+	top:0px;
+}
+
+.spin{
+	position: absolute;
+	width:148px;
+	height:138px;
+    left:585px;
+    top:874px;
+}
+
+#wheel{
+	background-image:url("spinWheel_iPad.png");
+	position: absolute;
+	width:148px;
+	height:138px;
+    left:0px;
+    top:0px;
+}
+
+.wheel{
+	 -webkit-animation:wheel 2s linear infinite alternate;
+}
+
+#text{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+	width:138px;
+	height:48px;
+    left:7px;
+    top:45px;
+}
+
+.text{
+	-webkit-animation:blinkspin 1s infinite alternate;
+}
+
+@-webkit-keyframes wheel{
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(15deg);}	
+}
+
+@-webkit-keyframes blinkspin {
+	from {-webkit-filter:brightness(80%);}
+	to {-webkit-filter:brightness(180%);}
+}

@@ -1,0 +1,101 @@
+/********** OUTRO SPECIFIC CSS **********/
+#main-container {
+	width: 768px;
+	height: 1024px;
+	position: absolute;
+}
+.container {
+	width: 768px;
+	height: 1024px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#outro-container {
+	background-image: url('BG_iPadPort.jpg');
+}
+#animation-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#mnectarbranding {
+	background-image: url('mNectarBrand_768x52.png');
+	width: 768px;
+	height: 52px;
+	top: 964px;
+	position: absolute;
+}
+/*function that defines the animation to be called later. It also defines the parameters and animation deforms. 
+http://www.w3schools.com/css/css3_animations.asp*/
+@-webkit-keyframes pulse {
+	from {
+		-webkit-transform: scale(1);
+	}
+
+	to {
+		-webkit-transform: scale(.8);
+	}
+}
+/*The top position of the bottom botton is the same across each screen*/
+#bottom-button {
+	position: absolute;
+	top:486px;
+}
+/*The position of the top botton is the same across each screen. The styling may be different*/
+#top-button {
+	width:537px;
+	height:243px;
+	position: absolute;
+    left: 117px;
+    top: 311px;
+	/*animation is called. This is in a very specific order. 1. animation name 2. duration 3. animation easing 4. delay 5. pattern*/
+	animation: pulse 1.5s ease-in-out 1s infinite alternate;
+}
+.install-click-url {
+	position: absolute;
+	width: 768px;
+	height: 924px;
+	top: 100px;
+}
+.idle-click-url {
+	position: absolute;
+    width: 525px;
+    height: 173px;
+    left: 121px;
+    top: 333px;
+}
+.error-click-url {
+	position: absolute;
+	width: 330px;
+	height: 126px;
+	top: 516px;
+	left:221px;
+}
+.install-idle-dl {
+	background-image: url('CTA_iPadPort.png');
+}
+.install-thanks {
+	width:610px;
+	height:111px;
+	background-image: url('Thanks_iPadPort.png');
+    left: 90px;
+    top: 566px !important;
+}
+.idle-retry {
+	width:428px;
+	height:279px;
+	background-image: url('IdleRetry_iPadPort.png');
+    left: 171px;
+}
+.error-dl {
+	width:428px;
+	height:207px;
+	background-image: url('DLerror_iPadPort.png');
+    left: 173px;
+}
+.error-retry {
+	background-image: url('ErrorRetry_iPadPort.png');
+}
+/********** OUTRO SPECIFIC CSS **********/

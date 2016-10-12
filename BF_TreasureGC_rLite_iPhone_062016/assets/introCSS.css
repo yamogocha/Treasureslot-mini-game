@@ -1,0 +1,62 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:320px;
+	height:568px;
+	left: 0px;
+	top: 0px;
+}
+
+.introBG{
+	background-image:url("introBG_iPhone.jpg");
+	position: absolute;
+	width:320px;
+	height:568px;
+	left:0px;
+	top:0px;
+}
+
+
+.spin{
+	position: absolute;
+	width:67px;
+	height:62px;
+    left:249px;
+    top:424px;
+}
+
+#wheel{
+	background-image:url("spinWheel_iPhone.png");
+	position: absolute;
+	width:67px;
+	height:62px;
+    left:0px;
+    top:0px;
+}
+
+.wheel{
+	 -webkit-animation:wheel 2s linear infinite alternate;
+}
+
+#text{
+	background-image:url("spin_iPhone.png");
+	position: absolute;
+	width:62px;
+	height:21px;
+    left:2px;
+    top:21px;
+}
+
+.text{
+	-webkit-animation:blinkspin 1s infinite alternate;
+}
+
+@-webkit-keyframes wheel{
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(15deg);}	
+}
+
+@-webkit-keyframes blinkspin {
+	from {-webkit-filter:brightness(80%);}
+	to {-webkit-filter:brightness(180%);}
+}

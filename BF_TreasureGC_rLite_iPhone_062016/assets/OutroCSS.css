@@ -1,0 +1,103 @@
+/********** OUTRO SPECIFIC CSS **********/
+#main-container {
+	width: 320px;
+	height: 568px;
+	position: absolute;
+}
+.container {
+	width: 320px;
+	height: 568px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#outro-container {
+	background-image: url('BG_iPhonePort.jpg');
+}
+
+#animation-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#mnectarbranding {
+	background-image: url('mNectarBrand_320x29.png');
+	width: 320px;
+	height: 29px;
+	top: 530px;
+	position: absolute;
+}
+/*function that defines the animation to be called later. It also defines the parameters and animation deforms. 
+http://www.w3schools.com/css/css3_animations.asp*/
+@-webkit-keyframes pulse {
+	from {
+		-webkit-transform: scale(1);
+	}
+
+	to {
+		-webkit-transform: scale(.8);
+	}
+}
+/*The top position of the bottom botton is the same across each screen*/
+#bottom-button {
+	position: absolute;
+    top: 274px;
+}
+/*The position of the top botton is the same across each screen. The styling may be different*/
+#top-button {
+	width:289px;
+	height:129px;
+	position: absolute;
+	left: 15px;
+    top: 181px;
+	/*animation is called. This is in a very specific order. 1. animation name 2. duration 3. animation easing 4. delay 5. pattern*/
+	animation: pulse 1.5s ease-in-out 1s infinite alternate;
+}
+.install-click-url {
+	position: absolute;
+    width: 320px;
+    height: 482px;
+	top: 86px;
+	left: 0px;
+}
+.idle-click-url {
+	position: absolute;
+	width: 240px;
+	height: 80px;
+    left: 39px;
+    top: 200px;
+}
+.error-click-url {
+	position: absolute;
+	width: 180px;
+	height: 60px;
+    top: 293px;
+    left: 68px;
+}
+.install-idle-dl {
+	background-image: url('CTA_iPhonePort.png');
+}
+.install-thanks {
+	width:271px;
+	height:51px;
+	background-image: url('Thanks_iPhonePort.png');
+    left: 27px;
+    top: 310px !important;
+}
+.idle-retry {
+	width:229px;
+	height:143px;
+	background-image: url('IdleRetry_iPhonePort.png');
+    left: 43px;
+}
+.error-dl {
+	width:229px;
+	height:109px;
+	background-image: url('ErrorDL_iPhonePort.png');
+    left: 43px;
+}
+.error-retry {
+	background-image: url('ErrorRetry_iPhonePort.png');
+}
+/********** OUTRO SPECIFIC CSS **********/

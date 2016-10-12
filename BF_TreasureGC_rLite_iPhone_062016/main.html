@@ -1,0 +1,188 @@
+<!--Feel free to add to, delete or edit these script and link tags-->
+
+<link rel="stylesheet" href="assets/GameCSS.css">
+<link rel="stylesheet" href="assets/OutroCSS.css">
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+<!--Main Container that holds everything in an absolute position to hold everything in place in the UI-->
+<!--All html coding for your project should be done inside this "main-container"-->
+<!--Feel free to add to, delete or edit any or all of the html that is currently inside this container-->
+<!--Just be sure to keep the css that defines the styling for the "main-container"-->
+<div id="main-container">
+
+		<!--backgroundImage: all other gameplay elements are children of this div.-->
+		<div id="game-container" class="container">
+			<div class="gamebg"></div>
+			<div class="bombs">
+				<span id="rightB1"></span>
+				<span id="rightB2"></span>
+				<span id="rightB3"></span>
+				<span id="leftB1"></span>
+				<span id="leftB2"></span>
+				<span id="leftB3"></span>
+			</div>
+			<div class="fire">
+				<span id="rightF1"></span>
+				<span id="rightF2"></span>
+				<span id="rightF3"></span>
+				<span id="leftF1"></span>
+				<span id="leftF2"></span>
+				<span id="leftF3"></span>
+			</div>
+			<div class="board"></div>
+			<div class="reels">
+				<div id="reel1" class="reel-top">
+					<div id="reel1-1"  ></div>
+					<div id="reel1-2"  ></div>
+					<div id="reel1-3"  ></div>
+					<div id="reel1-4"  ></div>
+					<div id="reel1-5"  ></div>
+					<div id="reel1-6"  ></div>
+					<div id="reel1-7"  ></div>
+					<div id="reel1-8"  ></div>
+					<div id="reel1-9"  ></div>
+					<div id="reel1-10" ></div>
+					<div id="reel1-11" ></div>
+					<div id="reel1-12" ></div>
+					<div id="reel1-13" ></div>
+					<div id="reel1-14" ></div>
+					<div id="reel1-15" ></div>
+					<div id="reel1-16" ></div>
+					<div id="reel1-17" ></div>
+					<div id="reel1-18" ></div>	
+				</div>
+				
+				<div id="reel2" class="reel-top">
+					<div id="reel2-1"  ></div>
+					<div id="reel2-2"  ></div>
+					<div id="reel2-3"  ></div>
+					<div id="reel2-4"  ></div>
+					<div id="reel2-5"  ></div>
+					<div id="reel2-6"  ></div>
+					<div id="reel2-7"  ></div>
+					<div id="reel2-8"  ></div>
+					<div id="reel2-9"  ></div>
+					<div id="reel2-10" ></div>
+					<div id="reel2-11" ></div>
+					<div id="reel2-12" ></div>
+					<div id="reel2-13" ></div>
+					<div id="reel2-14" ></div>
+					<div id="reel2-15" ></div>
+					<div id="reel2-16" ></div>
+					<div id="reel2-17" ></div>
+					<div id="reel2-18" ></div>
+				</div>
+				
+				<div id="reel3" class="reel-top">
+					<div id="reel3-1"   ></div>
+					<div id="reel3-2"   ></div>
+					<div id="reel3-3"   ></div>
+					<div id="reel3-4"   ></div>
+					<div id="reel3-5"   ></div>
+					<div id="reel3-6"   ></div>
+					<div id="reel3-7"   ></div>
+					<div id="reel3-8"   ></div>
+					<div id="reel3-9"   ></div>
+					<div id="reel3-10"  ></div>
+					<div id="reel3-11"  ></div>
+					<div id="reel3-12"  ></div>
+					<div id="reel3-13"  ></div>
+					<div id="reel3-14"  ></div>
+					<div id="reel3-15"  ></div>
+					<div id="reel3-16"  ></div>
+					<div id="reel3-17"  ></div>
+					<div id="reel3-18"  ></div>
+				</div>
+				
+				<div id="reel4" class="reel-top">
+					<div id="reel4-1"   ></div>
+					<div id="reel4-2"   ></div>
+					<div id="reel4-3"   ></div>
+					<div id="reel4-4"   ></div>
+					<div id="reel4-5"   ></div>
+					<div id="reel4-6"   ></div>
+					<div id="reel4-7"   ></div>
+					<div id="reel4-8"   ></div>
+					<div id="reel4-9"   ></div>
+					<div id="reel4-10"  ></div>
+					<div id="reel4-11"  ></div>
+					<div id="reel4-12"  ></div>
+					<div id="reel4-13"  ></div>
+					<div id="reel4-14"  ></div>
+					<div id="reel4-15"  ></div>
+					<div id="reel4-16"  ></div>
+					<div id="reel4-17"  ></div>
+					<div id="reel4-18"  ></div>
+				</div>
+
+				<div id="reel5" class="reel-top">
+					<div id="reel5-1"   ></div>
+					<div id="reel5-2"   ></div>
+					<div id="reel5-3"   ></div>
+					<div id="reel5-4"   ></div>
+					<div id="reel5-5"   ></div>
+					<div id="reel5-6"   ></div>
+					<div id="reel5-7"   ></div>
+					<div id="reel5-8"   ></div>
+					<div id="reel5-9"   ></div>
+					<div id="reel5-10"  ></div>
+					<div id="reel5-11"  ></div>
+					<div id="reel5-12"  ></div>
+					<div id="reel5-13"  ></div>
+					<div id="reel5-14"  ></div>
+					<div id="reel5-15"  ></div>
+					<div id="reel5-16"  ></div>
+					<div id="reel5-17"  ></div>
+					<div id="reel5-18"  ></div>
+				</div>	 
+			</div>
+			<div class="slots"></div>
+
+			<div class="effects">
+				<div id="line1"></div>
+				<div id="line2"></div>
+				<div id="effect1"></div>
+				<div id="effect2"></div>
+			</div>
+
+			<div id="totalNum">100000</div>
+			<div id="shadow">0</div>
+			<div id="wonNum">0</div>
+			<div id="bigwin"></div>
+
+			<div class="spin" onclick="clickSpin();">
+				<span id="wheel" class="wheel"></span>
+				<span id="text" class="text"></span>
+			</div>
+			<div id="sparkles" onclick="clickSpin();"></div>
+		</div>
+
+		<!-- OUTRO SPECIFIC HTML -->
+		<!--backgroundImage: all other outro elements are children of this div.-->
+		<div id="outro-container" class="container" style="display:none;">
+
+			<!--Put all background animation (all animation that exists behind the buttons but in front of the background... ex: snow, rain, or bubbles) inside this empty div-->
+			<div id="animation-container">
+			</div>
+
+			<!--ThanksForPlaying: we will assign a class and Id to be able to change it between screens-->
+			<div id="bottom-button">
+			</div>
+
+			<!--DLbutton: margin: auto; allows the button to be centered automatically!-->
+			<div id="top-button">
+			</div>
+
+			<!--mNectar Branding-->
+			<div id="mnectarbranding">
+			</div>
+
+			<!--ClickURL that sends the user to the landing page-->
+			<div id="dl-div" onclick="clickDownload();">
+			</div>
+		</div>
+
+</div>
+
+<script src="assets/GameJS.js"></script>
+<script src="assets/OutroJS.js"></script>
